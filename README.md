@@ -56,7 +56,7 @@ This project builds a scenario-based depletion model using 3,630 real well measu
 8. Identified year each scenario crosses 300 ft critical threshold
 
 ### Limitations
-- Linear model assumes constant decline rate — actual depletion may accelerate as saturated thickness decreases
+- Linear model assumes constant decline rate, actual depletion may accelerate as saturated thickness decreases
 - Regional average across 7 counties smooths local variation around the Fermi site
 - Fermi's actual water usage is not yet known — model uses publicly disclosed estimates only
 - Does not account for potential changes in agricultural pumping or climate
@@ -85,16 +85,9 @@ python3 datacenter.py
 
 ---
 
-## Project Structure
-data_center/
-├── datacenter.py                  # Main analysis script
-├── ogallala_panhandle_data.csv    # TWDB well measurement data
-├── ogallala_forecast.png          # Output chart
-└── README.md                      # This file
-
----
-
 ## Author
+
+David Schneider
 
 Built as a mini research project exploring the intersection of AI infrastructure
 and water resource sustainability in the Texas Panhandle.
