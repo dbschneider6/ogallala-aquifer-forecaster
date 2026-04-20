@@ -58,7 +58,7 @@ This project builds a scenario-based depletion model using 3,630 real well measu
 ### Limitations
 - Linear model assumes constant decline rate, actual depletion may accelerate as saturated thickness decreases
 - Regional average across 7 counties smooths local variation around the Fermi site
-- Fermi's actual water usage is not yet known — model uses publicly disclosed estimates only
+- Fermi's actual water usage is not yet known, model uses publicly disclosed estimates only
 - Does not account for potential changes in agricultural pumping or climate
 
 ---
@@ -87,6 +87,6 @@ python3 datacenter.py
 
 ## Author
 
-Built by David Schneider as a mini research project exploring the intersection of AI infrastructure and water resource sustainability in the Texas Panhandle.
+Research project exploring the intersection of AI infrastructure and water resource sustainability in the Texas Panhandle. Built by David Schneider.
 
 *Data current as of April 2026. Fermi Project Matador is actively under construction.*
