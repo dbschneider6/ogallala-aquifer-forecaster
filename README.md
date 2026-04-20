@@ -5,9 +5,9 @@
 
 ## What This Project Does
 
-Fermi America is currently constructing Project Matador — billed as the world's largest AI data center campus — on 7,570 acres in Carson County, Texas, adjacent to the Pantex nuclear plant near Amarillo. The facility has disclosed water usage of up to 27.5 million gallons per day drawn from the Ogallala Aquifer, the sole freshwater source for the Texas Panhandle.
+Fermi America is currently constructing Project Matador, billed as the world's largest AI data center campus, on 7,570 acres in Carson County, Texas, adjacent to the Pantex nuclear plant near Amarillo. The facility has disclosed water usage of up to 27.5 million gallons per day drawn from the Ogallala Aquifer, the sole freshwater source for the Texas Panhandle.
 
-This project builds a scenario-based depletion model using 3,630 real well measurements from the Texas Water Development Board (TWDB) across seven Panhandle counties. It projects when the aquifer reaches a critical pumping threshold under four water usage scenarios — with and without Fermi's disclosed water draw.
+This project builds a scenario-based depletion model using 3,630 real well measurements from the Texas Water Development Board (TWDB) across seven Panhandle counties. It projects when the aquifer reaches a critical pumping threshold under four water usage scenarios with and without Fermi's disclosed water draw.
 
 ---
 
@@ -20,7 +20,7 @@ This project builds a scenario-based depletion model using 3,630 real well measu
 | Medium use (hybrid cooling) | 13.2 MGD | 2100 |
 | **High use (max disclosed)** | **27.5 MGD** | **2081** |
 
-**Fermi's maximum disclosed water usage accelerates aquifer depletion by approximately 55 years** compared to the baseline trend — from 2136 to 2081.
+**Fermi's maximum disclosed water usage accelerates aquifer depletion by approximately 55 years** compared to the baseline trend, from 2136 to 2081.
 
 ---
 
@@ -87,9 +87,6 @@ python3 datacenter.py
 
 ## Author
 
-David Schneider
-
-Built as a mini research project exploring the intersection of AI infrastructure
-and water resource sustainability in the Texas Panhandle.
+Built by David Schneider as a mini research project exploring the intersection of AI infrastructure and water resource sustainability in the Texas Panhandle.
 
 *Data current as of April 2026. Fermi Project Matador is actively under construction.*
